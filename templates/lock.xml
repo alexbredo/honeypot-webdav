@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<D:prop xmlns:D="DAV:">
+	<D:lockdiscovery>
+		<D:activelock>
+			<D:locktype><D:write/></D:locktype>
+			<D:lockscope><D:exclusive/></D:lockscope>
+			<D:depth>infinity</D:depth>
+			<ns0:owner xmlns:ns0="DAV:"><ns0:href>EDAG\ab21377</ns0:href></ns0:owner><D:timeout>Second-3600</D:timeout>
+			<D:locktoken>
+				<D:href>opaquelocktoken:0f8b331b-eeca-4099-93a0-8ae4af6407d8</D:href>
+			</D:locktoken>
+		</D:activelock>
+	</D:lockdiscovery>
+</D:prop>

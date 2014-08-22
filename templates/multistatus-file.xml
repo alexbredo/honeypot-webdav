@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<D:multistatus xmlns:D="DAV:">
+	<D:response xmlns:ns0="DAV:" xmlns:ns1="urn:schemas-microsoft-com:" xmlns:lp1="DAV:" xmlns:lp2="http://apache.org/dav/props/">
+		<D:href>/webdav/neuer-name.txt</D:href>
+		<D:propstat>
+			<D:prop>
+				<ns1:Win32CreationTime>Fri, 21 Mar 2014 08:40:34 GMT</ns1:Win32CreationTime>
+				<ns1:Win32LastModifiedTime>Fri, 21 Mar 2014 08:40:34 GMT</ns1:Win32LastModifiedTime>
+				<ns1:Win32FileAttributes>00000000</ns1:Win32FileAttributes>
+				<ns1:Win32LastAccessTime>Fri, 21 Mar 2014 08:41:00 GMT</ns1:Win32LastAccessTime>
+				<lp1:resourcetype/>
+				<lp1:creationdate>2014-03-21T08:41:40Z</lp1:creationdate>
+				<lp1:getcontentlength>21</lp1:getcontentlength>
+				<lp1:getlastmodified>Fri, 21 Mar 2014 08:40:55 GMT</lp1:getlastmodified>
+				<lp1:getetag>"15-4f519d819bba3"</lp1:getetag>
+				<lp2:executable>F</lp2:executable>
+				<D:supportedlock>
+					<D:lockentry>
+						<D:lockscope><D:exclusive/></D:lockscope>
+						<D:locktype><D:write/></D:locktype>
+					</D:lockentry>
+					<D:lockentry>
+						<D:lockscope><D:shared/></D:lockscope>
+						<D:locktype><D:write/></D:locktype>
+					</D:lockentry>
+				</D:supportedlock>
+				<D:lockdiscovery/>
+				<D:getcontenttype>text/plain</D:getcontenttype>
+			</D:prop>
+			<D:status>HTTP/1.1 200 OK</D:status>
+		</D:propstat>
+	</D:response>
+</D:multistatus>

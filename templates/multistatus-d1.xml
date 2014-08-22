@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<D:multistatus xmlns:D="DAV:">
+<D:response xmlns:lp1="DAV:" xmlns:lp2="http://apache.org/dav/props/">
+<D:href>/webdav/</D:href>
+<D:propstat>
+<D:prop>
+<lp1:resourcetype><D:collection/></lp1:resourcetype>
+<lp1:creationdate>2014-03-21T08:47:28Z</lp1:creationdate>
+<lp1:getlastmodified>Fri, 21 Mar 2014 08:47:28 GMT</lp1:getlastmodified>
+<lp1:getetag>"1000-4f519ef8796d2"</lp1:getetag>
+<D:supportedlock>
+<D:lockentry>
+<D:lockscope><D:exclusive/></D:lockscope>
+<D:locktype><D:write/></D:locktype>
+</D:lockentry>
+<D:lockentry>
+<D:lockscope><D:shared/></D:lockscope>
+<D:locktype><D:write/></D:locktype>
+</D:lockentry>
+</D:supportedlock>
+<D:lockdiscovery/>
+<D:getcontenttype>httpd/unix-directory</D:getcontenttype>
+</D:prop>
+<D:status>HTTP/1.1 200 OK</D:status>
+</D:propstat>
+</D:response>
+<D:response xmlns:ns0="DAV:" xmlns:ns1="urn:schemas-microsoft-com:" xmlns:lp1="DAV:" xmlns:lp2="http://apache.org/dav/props/">
+<D:href>/webdav/datei.txt</D:href>
+<D:propstat>
+<D:prop>
+<ns1:Win32CreationTime>Fri, 21 Mar 2014 08:34:34 GMT</ns1:Win32CreationTime>
+<ns1:Win32LastModifiedTime>Fri, 21 Mar 2014 08:47:33 GMT</ns1:Win32LastModifiedTime>
+<ns1:Win32LastAccessTime>Fri, 21 Mar 2014 08:47:33 GMT</ns1:Win32LastAccessTime>
+<ns1:Win32FileAttributes>00000000</ns1:Win32FileAttributes>
+<lp1:resourcetype/>
+<lp1:creationdate>2014-03-21T08:47:28Z</lp1:creationdate>
+<lp1:getcontentlength>33</lp1:getcontentlength>
+<lp1:getlastmodified>Fri, 21 Mar 2014 08:47:28 GMT</lp1:getlastmodified>
+<lp1:getetag>"21-4f519ef8796d2"</lp1:getetag>
+<lp2:executable>F</lp2:executable>
+<D:supportedlock>
+<D:lockentry>
+<D:lockscope><D:exclusive/></D:lockscope>
+<D:locktype><D:write/></D:locktype>
+</D:lockentry>
+<D:lockentry>
+<D:lockscope><D:shared/></D:lockscope>
+<D:locktype><D:write/></D:locktype>
+</D:lockentry>
+</D:supportedlock>
+<D:lockdiscovery/>
+<D:getcontenttype>text/plain</D:getcontenttype>
+</D:prop>
+<D:status>HTTP/1.1 200 OK</D:status>
+</D:propstat>
+</D:response>
+<D:response xmlns:lp1="DAV:" xmlns:lp2="http://apache.org/dav/props/">
+<D:href>/webdav/ordner/</D:href>
+<D:propstat>
+<D:prop>
+<lp1:resourcetype><D:collection/></lp1:resourcetype>
+<lp1:creationdate>2014-03-21T08:34:25Z</lp1:creationdate>
+<lp1:getlastmodified>Fri, 21 Mar 2014 08:29:40 GMT</lp1:getlastmodified>
+<lp1:getetag>"1000-4f519afdeb582"</lp1:getetag>
+<D:supportedlock>
+<D:lockentry>
+<D:lockscope><D:exclusive/></D:lockscope>
+<D:locktype><D:write/></D:locktype>
+</D:lockentry>
+<D:lockentry>
+<D:lockscope><D:shared/></D:lockscope>
+<D:locktype><D:write/></D:locktype>
+</D:lockentry>
+</D:supportedlock>
+<D:lockdiscovery/>
+<D:getcontenttype>httpd/unix-directory</D:getcontenttype>
+</D:prop>
+<D:status>HTTP/1.1 200 OK</D:status>
+</D:propstat>
+</D:response>
+</D:multistatus>
